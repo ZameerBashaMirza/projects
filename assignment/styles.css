@@ -1,0 +1,63 @@
+* {
+  margin: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(128, 128, 128, 0.046);
+}
+
+.left-1-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* padding: 8pt; */
+  width: 2%;
+  height: 350px;
+  /* border: 2px solid rgba(255, 68, 0, 0.811); */
+  column-gap: 20px;
+  cursor: pointer;
+}
+.left-1-icons h5 {
+  color: grey;
+}
+
+.midpart-container {
+  display: flex;
+}
+.view-48 {
+  /* box-sizing: border-box; */
+  width: 38%;
+  /* border: 4px solid green; */
+  /* background-color: rgba(128, 128, 128, 0.046); */
+}
+.view-25 {
+  /* box-sizing: border-box; */
+  width: 30%;
+  /* border: 4px solid royalblue; */
+  /* width: fit-content; */
+  height: auto;
+}
+
+h6,
+li > span,
+h6:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+h6 {
+  color: #36c;
+}
+#btn-cart {
+  background-color: rgba(242, 255, 0, 0.833);
+  border-radius: 90%;
+  width: fit-content;
+}
+#btn-buy {
+  background-color: rgba(255, 170, 0, 0.857);
+  border-radius: 90%;
+}
+#opt-wish {
+  background-color: rgba(128, 128, 128, 0.146);
+}
